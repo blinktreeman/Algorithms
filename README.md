@@ -2,7 +2,7 @@
 
 ## Реализация 1. HeapSort
 
-link: [https://github.com/blinktreeman/Algorithms/blob/master/src/main/java/ru/bcomms/sorting/HeapSort.java]()
+link: [HeapSort.java](src/main/java/ru/bcomms/sorting/HeapSort.java)
 
 1. Строим бинарное дерево
 
@@ -54,7 +54,7 @@ Completed in time: 79 ms
 
 ## Реализация 2. AnotherHeapSort
 
-link [https://github.com/blinktreeman/Algorithms/blob/master/src/main/java/ru/bcomms/sorting/AnotherHeapSort.java]()
+link: [AnotherHeapSort.java](src/main/java/ru/bcomms/sorting/AnotherHeapSort.java)
 
 1. Строим бинарное дерево перемещая наверх минимальное значение. 
 При этом не переносим элемент с вершины, а строим следующее дерево начиная со 
