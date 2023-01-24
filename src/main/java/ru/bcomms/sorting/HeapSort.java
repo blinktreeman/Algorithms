@@ -6,7 +6,7 @@ import java.util.Random;
 public class HeapSort {
     public static void main(String[] args) {
 
-        int[] array = generateArray(10000, 10000);
+        int[] array = generateArray(40000, 10000);
         System.out.println(Arrays.toString(array));
 
         long startTime = System.currentTimeMillis();
