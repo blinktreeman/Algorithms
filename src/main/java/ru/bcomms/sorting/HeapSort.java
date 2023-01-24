@@ -32,6 +32,7 @@ public class HeapSort {
                 array[i] = array[2 * i + 1];
                 array[2 * i + 1] = temp;
             }
+            // Если у вершины есть второй лист
             if (2 * i + 2 <= toIndex && array[i] < array[2 * i + 2]) {
                 int temp = array[i];
                 array[i] = array[2 * i + 2];
