@@ -11,7 +11,7 @@ public class AnotherHeapSort {
         System.out.println(Arrays.toString(array));
 
         long startTime = System.currentTimeMillis();
-        heapSort(array, 0, array.length - 1);
+        heapSort(array);
         long endTime = System.currentTimeMillis();
 
         System.out.println(Arrays.toString(array));
@@ -25,9 +25,10 @@ public class AnotherHeapSort {
          */
     }
 
-    public static void heapSort(int[] array, int fromIndex, int toIndex) {
-        for (int i = fromIndex; i < toIndex; i++) {
-            heapBuild(array, i, toIndex);
+    public static void heapSort(int[] array) {
+        int length = array.length - 1;
+        for (int i = 0; i < length; i++) {
+            heapBuild(array, i, length);
         }
     }
 
