@@ -1,25 +1,29 @@
 package ru.bcomms;
 
-import ru.bcomms.linked.DoublyLinkedList;
+import ru.bcomms.linked.MyDoublyLinkedList;
+import ru.bcomms.linked.MyLinkedList;
+import ru.bcomms.linked.MySinglyLinkedList;
+
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        DoublyLinkedList<Integer> linkedList = new DoublyLinkedList<>();
-        linkedList.add(1);
-        linkedList.add(2);
-        linkedList.add(3);
-        linkedList.add(4);
+        MyLinkedList linkedList = new MySinglyLinkedList<Integer>();
+        Random random = new Random();
+        for (int i = 0; i < 10; i++) {
+            linkedList.add(random.nextInt(100));
+        }
         System.out.println(linkedList);
         linkedList.revert();
         System.out.println(linkedList);
 
-        DoublyLinkedList<String> stringDoublyLinkedList = new DoublyLinkedList<>();
-        stringDoublyLinkedList.add("Hello");
-        stringDoublyLinkedList.add("world");
-        stringDoublyLinkedList.add("!");
-        System.out.println(stringDoublyLinkedList);
-        stringDoublyLinkedList.revert();
-        System.out.println(stringDoublyLinkedList);
+        linkedList = new MyDoublyLinkedList<String>();
+        linkedList.add("Hello");
+        linkedList.add("world");
+        linkedList.add("!");
+        System.out.println(linkedList);
+        linkedList.revert();
+        System.out.println(linkedList);
     }
 
 }

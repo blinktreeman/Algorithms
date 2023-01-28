@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ce6c441-d611-482f-8c42-dcbea2cb2280" name="Changes" comment="correct README.md">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/linked/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/linked/SinglyLinkedList.java" afterDir="false" />
+    <list default="true" id="7ce6c441-d611-482f-8c42-dcbea2cb2280" name="Changes" comment="revert done, add README.md">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/linked/MyDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/linked/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/linked/MySinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/linked/nodes/DoublyLinkedNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/linked/nodes/SinglyLinkedNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/bcomms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/bcomms/sorting/AnotherHeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/sorting/AnotherHeapSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -115,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674566253525</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="revert done, add README.md">
+      <created>1674813604766</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674813604766</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -124,6 +132,7 @@
     <MESSAGE value="edit README" />
     <MESSAGE value="some correct" />
     <MESSAGE value="correct README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct README.md" />
+    <MESSAGE value="revert done, add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="revert done, add README.md" />
   </component>
 </project>
