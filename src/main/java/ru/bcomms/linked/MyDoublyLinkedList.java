@@ -1,7 +1,6 @@
 package ru.bcomms.linked;
 
 import ru.bcomms.linked.nodes.DoublyLinkedNode;
-import ru.bcomms.linked.nodes.SinglyLinkedNode;
 
 public class MyDoublyLinkedList<T> implements MyLinkedList<DoublyLinkedNode<T>, T> {
     private DoublyLinkedNode<T> head;
