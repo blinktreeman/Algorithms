@@ -7,6 +7,10 @@ import java.util.List;
 public class BinaryTree<T extends Comparable<T>> {
     private BinaryTreeNode<T> root;
 
+    /**
+     * Добавить значение
+     * @param value Значение
+     */
     public void add(T value) {
         BinaryTreeNode<T> node = new BinaryTreeNode<>();
         node.setValue(value);
