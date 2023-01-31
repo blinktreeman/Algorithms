@@ -1,29 +1,20 @@
 package ru.bcomms;
 
-import ru.bcomms.linked.MyDoublyLinkedList;
-import ru.bcomms.linked.MyLinkedList;
-import ru.bcomms.linked.MySinglyLinkedList;
-
-import java.util.Random;
+import ru.bcomms.tree.BinaryTree;
 
 public class Main {
     public static void main(String[] args) {
-        MyLinkedList linkedList = new MySinglyLinkedList<Integer>();
-        Random random = new Random();
-        for (int i = 0; i < 10; i++) {
-            linkedList.add(random.nextInt(100));
-        }
-        System.out.println(linkedList);
-        linkedList.revert();
-        System.out.println(linkedList);
+        BinaryTree<Integer> binaryTree = new BinaryTree<>();
+        binaryTree.add(10);
+        binaryTree.add(1);
+        binaryTree.add(20);
+        binaryTree.add(5);
+        binaryTree.add(3);
+        binaryTree.add(15);
+        binaryTree.add(22);
 
-        linkedList = new MyDoublyLinkedList<String>();
-        linkedList.add("Hello");
-        linkedList.add("world");
-        linkedList.add("!");
-        System.out.println(linkedList);
-        linkedList.revert();
-        System.out.println(linkedList);
+        System.out.println(binaryTree);
+        System.out.println(-11 % 2);
     }
 
 }

@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ce6c441-d611-482f-8c42-dcbea2cb2280" name="Changes" comment="revert done, add README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/linked/MyDoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/linked/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/linked/MySinglyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/linked/nodes/DoublyLinkedNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/linked/nodes/SinglyLinkedNode.java" afterDir="false" />
+    <list default="true" id="7ce6c441-d611-482f-8c42-dcbea2cb2280" name="Changes" comment="delete old rel">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/tree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/tree/BinaryTreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/bcomms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/Main.java" afterDir="false" />
     </list>
@@ -123,7 +120,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674813604766</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="all done, edit README.md">
+      <created>1674913178606</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674913178606</updated>
+    </task>
+    <task id="LOCAL-00008" summary="remove import class">
+      <created>1674913659152</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674913659152</updated>
+    </task>
+    <task id="LOCAL-00009" summary="delete old rel">
+      <created>1674913780052</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674913780052</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,6 +151,9 @@
     <MESSAGE value="some correct" />
     <MESSAGE value="correct README.md" />
     <MESSAGE value="revert done, add README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="revert done, add README.md" />
+    <MESSAGE value="all done, edit README.md" />
+    <MESSAGE value="remove import class" />
+    <MESSAGE value="delete old rel" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete old rel" />
   </component>
 </project>
