@@ -31,6 +31,28 @@ public class RBBinaryTree<T extends Comparable<T>> {
         }
     }
 
+    // Левый малый поворот
+    private RBBinaryTreeNode<T> leftTurn(RBBinaryTreeNode<T> node) {
+        RBBinaryTreeNode<T> leftChild = node.getLeft();
+        RBBinaryTreeNode<T> betweenParentAndChild = node.getLeft().getRight();
+        node.setLeft(betweenParentAndChild);
+        leftChild.setRight(node);
+        leftChild.setColor(node.getColor());
+        node.setColor(NodeColor.RED);
+        return leftChild;
+    }
+
+    // Правый малый поворот
+    private RBBinaryTreeNode<T> rightTurn(RBBinaryTreeNode<T> node) {
+        RBBinaryTreeNode<T> rightChild = node.getRight();
+        RBBinaryTreeNode<T> betweenParentAndChild = node.getRight().getLeft();
+        node.setRight(betweenParentAndChild);
+        rightChild.setLeft(node);
+        rightChild.setColor(node.getColor());
+        node.setColor(NodeColor.RED);
+        return rightChild;
+    }
+
     @Override
     public String toString() {
         if (root == null) {
