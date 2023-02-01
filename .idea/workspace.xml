@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ce6c441-d611-482f-8c42-dcbea2cb2280" name="Changes" comment="add left right turns">
+    <list default="true" id="7ce6c441-d611-482f-8c42-dcbea2cb2280" name="Changes" comment="binary tree done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/tree/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/bcomms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/bcomms/tree/RBBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bcomms/tree/RBBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675262765971</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="binary tree done">
+      <created>1675272889973</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675272889973</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,7 +190,8 @@
     <MESSAGE value="delete old rel" />
     <MESSAGE value="add red black binary tree" />
     <MESSAGE value="add left right turns" />
-    <option name="LAST_COMMIT_MESSAGE" value="add left right turns" />
+    <MESSAGE value="binary tree done" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary tree done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
